@@ -42,9 +42,10 @@ entrepreneurs.forEach(entrepreneur => {
 //Trie les entrepreneurs par ordre alphabétique du nom de famille
 let entrepreneursTries = entrepreneurs.slice();
 entrepreneursTries.sort((a, b) => {
-    let nomA = a.last.toLowerCase();
-    let nomB = b.last.toLowerCase();
+    let nomA = a.last;
+    let nomB = b.last;
 
+// Compare les noms de famille et retourne -1, 1 ou 0 en fonction de l'ordre alphabétique
     if (nomA < nomB) {
         return -1;
     } else if (nomA > nomB) {
