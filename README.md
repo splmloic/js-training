@@ -9,13 +9,13 @@ puis lance le index .html
 
 ## dans les dossiers
 
-Racine
+**Racine :**
 - index.html
 - script.js
 - style.css
 - Test-js.html
 
-js
+**js :**
 - script_1.1.js
 - script_1.2.js
 - script_2.js
